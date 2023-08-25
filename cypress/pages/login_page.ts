@@ -18,7 +18,7 @@ export class LoginPage {
     }
 
     click_login(){
-    cy.get(this.loginPage_password).click()
+    cy.get(this.loginPage_loginbutton).click()
     }
 
     headingText_assert(pageTitle: string){
